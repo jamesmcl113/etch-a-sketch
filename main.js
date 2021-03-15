@@ -16,6 +16,14 @@ window.onload = function() {
 }
 
 function changeColour(e)
+{   
+    let r = Math.random() * 255
+    let g = Math.random() * 255
+    let b = Math.random() * 255
+    e.target.style.background = "rgb(" + String(r) + "," + String(g) + "," + String(b) + ")"
+}
+
+function changeSize()
 {
-    e.target.style.background = "black"
+    let newSize = prompt("Enter")
 }
