@@ -1,0 +1,28 @@
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    background-color: beige;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+#grid {
+    display: grid;
+    min-height: 500px;
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 4px solid black;
+}
+
+.grid-block {
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
