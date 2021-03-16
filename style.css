@@ -16,6 +16,17 @@ h1 {
     font-size: 4em;
     text-align: center;
     text-shadow: 2px 2px 0px var(--button-shadow);
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+
+p {
+    margin: 0 0;
 }
 
 /* BUTTON */
@@ -31,6 +42,7 @@ h1 {
 
     font-size: 1.2em;
     text-align: center;
+    vertical-align: middle;
 }
 
 .button:hover {
@@ -39,6 +51,10 @@ h1 {
 
 .button:active {
     box-shadow: none;
+}
+
+#size-button {
+    font-size: 12px;
 }
 
 /* GRID */
